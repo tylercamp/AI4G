@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{58fa473a-233d-4f55-aac7-fcb05537806a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components">
+      <UniqueIdentifier>{0a626cdd-8577-4b2c-a94f-af4cd7fdab8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\System">
+      <UniqueIdentifier>{4b058f47-0b77-4592-8011-2d3a279886cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Scenery">
+      <UniqueIdentifier>{642ebab6-6ab3-472a-9ec3-73998feb8a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{d0a5c1d3-c7bf-4726-bdec-5bddc689aa30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Core">
+      <UniqueIdentifier>{a398e782-d129-4477-90af-280faaa9ae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level Management">
+      <UniqueIdentifier>{38162683-ce40-42e1-b1df-4aa14f293fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level Management\RapidXML">
+      <UniqueIdentifier>{eef21f8d-4660-447b-8b79-dda919ecc7c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Game Components\System</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorTile.cpp">
+      <Filter>Game Components\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicEntity.cpp">
+      <Filter>Game Components\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAI.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMain.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="LevelLoader.cpp">
+      <Filter>Level Management</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Game Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorTile.h">
+      <Filter>Game Components\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicEntity.h">
+      <Filter>Game Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAI.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="PropertyStore.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>AI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>AI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowPathState.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzyLogic.h">
+      <Filter>AI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>Level Management\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_iterators.hpp">
+      <Filter>Level Management\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_print.hpp">
+      <Filter>Level Management\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>Level Management\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelLoader.h">
+      <Filter>Level Management</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaseEntityState.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldQuery.h">
+      <Filter>AI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceQuery.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastQuery.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeQuery.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectAngleQuery.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnToPathState.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio
+*.obj
+*.exe
+*.exp
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.idb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.zip
+*.sbr
+*.obj
+*.lastbuildstate
+*.log
+*.tlog
+*.pdb
+Thumbs.db
+[Tt]est[Rr]esults/
+_UpgradeReport_Files/
+_ReSharper.*/
+
+*.bat
+*.vsps
+*.sdf
+*.unsuccessfulbuild
